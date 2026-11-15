@@ -1,0 +1,160 @@
+{
+ "rows": 2830743,
+ "features": 78,
+ "label_counts": {
+  "BENIGN": 2273097,
+  "DoS Hulk": 231073,
+  "PortScan": 158930,
+  "DDoS": 128027,
+  "DoS GoldenEye": 10293,
+  "FTP-Patator": 7938,
+  "SSH-Patator": 5897,
+  "DoS slowloris": 5796,
+  "DoS Slowhttptest": 5499,
+  "Bot": 1966,
+  "Web Attack Brute Force": 1507,
+  "Web Attack XSS": 652,
+  "Infiltration": 36,
+  "Web Attack Sql Injection": 21,
+  "Heartbleed": 11
+ },
+ "nan": {
+  "Flow Bytes/s": 1358
+ },
+ "inf": {
+  "Flow Bytes/s": 1509,
+  "Flow Packets/s": 2867
+ },
+ "negative": {
+  "Flow Duration": 115,
+  "Flow Bytes/s": 85,
+  "Flow Packets/s": 115,
+  "Flow IAT Mean": 115,
+  "Flow IAT Max": 115,
+  "Flow IAT Min": 2891,
+  "Fwd IAT Min": 17,
+  "Fwd Header Length": 35,
+  "Bwd Header Length": 22,
+  "Fwd Header Length.1": 35,
+  "Init_Win_bytes_forward": 1001189,
+  "Init_Win_bytes_backward": 1441552,
+  "min_seg_size_forward": 35
+ },
+ "constant": [
+  "Bwd PSH Flags",
+  "Bwd URG Flags",
+  "Fwd Avg Bytes/Bulk",
+  "Fwd Avg Packets/Bulk",
+  "Fwd Avg Bulk Rate",
+  "Bwd Avg Bytes/Bulk",
+  "Bwd Avg Packets/Bulk",
+  "Bwd Avg Bulk Rate"
+ ],
+ "exact_dup_rows": 308381,
+ "feature_dup_rows": 309079,
+ "conflicting_groups": 698,
+ "identical": [
+  [
+   "Bwd URG Flags",
+   "Bwd PSH Flags"
+  ],
+  [
+   "SYN Flag Count",
+   "Fwd PSH Flags"
+  ],
+  [
+   "CWE Flag Count",
+   "Fwd URG Flags"
+  ],
+  [
+   "Fwd Header Length.1",
+   "Fwd Header Length"
+  ],
+  [
+   "Fwd Avg Bytes/Bulk",
+   "Bwd PSH Flags"
+  ],
+  [
+   "Fwd Avg Packets/Bulk",
+   "Bwd PSH Flags"
+  ],
+  [
+   "Fwd Avg Bulk Rate",
+   "Bwd PSH Flags"
+  ],
+  [
+   "Bwd Avg Bytes/Bulk",
+   "Bwd PSH Flags"
+  ],
+  [
+   "Bwd Avg Packets/Bulk",
+   "Bwd PSH Flags"
+  ],
+  [
+   "Bwd Avg Bulk Rate",
+   "Bwd PSH Flags"
+  ],
+  [
+   "Subflow Fwd Packets",
+   "Total Fwd Packets"
+  ],
+  [
+   "Subflow Bwd Packets",
+   "Total Backward Packets"
+  ]
+ ],
+ "near_identical": [
+  [
+   "Subflow Fwd Packets",
+   "Total Fwd Packets",
+   0.0
+  ],
+  [
+   "Subflow Bwd Packets",
+   "Total Backward Packets",
+   0.0
+  ],
+  [
+   "Avg Fwd Segment Size",
+   "Fwd Packet Length Mean",
+   1.3922201447685452e-13
+  ],
+  [
+   "Avg Bwd Segment Size",
+   "Bwd Packet Length Mean",
+   9.94630659215407e-10
+  ],
+  [
+   "SYN Flag Count",
+   "Fwd PSH Flags",
+   0.0
+  ],
+  [
+   "CWE Flag Count",
+   "Fwd URG Flags",
+   0.0
+  ],
+  [
+   "Fwd Header Length.1",
+   "Fwd Header Length",
+   0.0
+  ]
+ ],
+ "drop": [
+  "Avg Bwd Segment Size",
+  "Avg Fwd Segment Size",
+  "Bwd Avg Bulk Rate",
+  "Bwd Avg Bytes/Bulk",
+  "Bwd Avg Packets/Bulk",
+  "Bwd PSH Flags",
+  "Bwd URG Flags",
+  "CWE Flag Count",
+  "Fwd Avg Bulk Rate",
+  "Fwd Avg Bytes/Bulk",
+  "Fwd Avg Packets/Bulk",
+  "Fwd Header Length.1",
+  "SYN Flag Count",
+  "Subflow Bwd Packets",
+  "Subflow Fwd Packets"
+ ]
+}
